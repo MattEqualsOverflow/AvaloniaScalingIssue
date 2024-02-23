@@ -8,6 +8,12 @@
         Title="AvaloniaScalingIssue"
         Padding="10">
     <LayoutTransformControl LayoutTransform="Scale(2)">
+        <LayoutTransformControl.ContextMenu>
+            <ContextMenu>
+                <MenuItem Header="First Item" />
+                <MenuItem Header="Second Item" />
+            </ContextMenu>
+        </LayoutTransformControl.ContextMenu>
         <StackPanel Orientation="Vertical">
             <TextBlock>Test ComboBox</TextBlock>
             <ComboBox>
